@@ -1111,7 +1111,95 @@ xxe&xml之利用检测绕过。
 
 
 
-32:57
+# day45
+
+>   \#端口服务类安全测试 
+>
+>   根据前期信息收集针对目标端口服务类探针后进行的安全测试，主要涉及攻击方法：口令安全，WEB 类漏洞，版本漏洞等，其中产生的危害可大可小。属于端口服务/第三方服务类安全测试面。一般在 已知应用无思路的情况下选用的安全测试方案。 
+>
+>   #API 接口-WebServiceRESTful API 
+>
+>   https://xz.aliyun.com/t/2412 
+>
+>   根据应用自身的功能方向决定，安全测试目标需有 API 接口调用才能进行此类测试，主要涉及的安 全问题：自身安全，配合 WEB，业务逻辑等，其中产生的危害可大可小，属于应用 API 接口网络服 务测试面，一般也是在存在接口调用的情况下的测试方案。 
+>
+>   WSDL（网络服务描 述语言，Web Services Description Language）是一门基于 XML 的语言，用于描述 Web Services 以及如何对它们进行访问。 
+>
+>   #漏洞关键字： 
+>
+>   配合 shodan，fofa,zoomeye 搜索也不错哦~ 
+>
+>   inurl:jws?wsdl 
+>
+>   inurl:asmx?wsdl 
+>
+>   inurl:aspx?wsdl 
+>
+>   inurl:ascx?wsdl 
+>
+>   inurl:ashx?wsdl 
+>
+>   inurl:dll?wsdl 
+>
+>   inurl:exe?wsdl 
+>
+>   inurl:php?wsdl 
+>
+>   inurl:pl?wsdl 
+>
+>   inurl:?wsdl 
+>
+>   filetype:wsdl wsdl
+
+完
+
+# day46
+
+**WAF 绕过-信息收集之反爬虫延时代理池技术**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
