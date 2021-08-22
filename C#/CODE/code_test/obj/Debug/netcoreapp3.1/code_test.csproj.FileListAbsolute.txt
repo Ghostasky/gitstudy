@@ -1,0 +1,13 @@
+D:\github_git\Note\C#\CODE\code_test\bin\Debug\netcoreapp3.1\code_test.exe
+D:\github_git\Note\C#\CODE\code_test\bin\Debug\netcoreapp3.1\code_test.deps.json
+D:\github_git\Note\C#\CODE\code_test\bin\Debug\netcoreapp3.1\code_test.runtimeconfig.json
+D:\github_git\Note\C#\CODE\code_test\bin\Debug\netcoreapp3.1\code_test.runtimeconfig.dev.json
+D:\github_git\Note\C#\CODE\code_test\bin\Debug\netcoreapp3.1\code_test.dll
+D:\github_git\Note\C#\CODE\code_test\bin\Debug\netcoreapp3.1\code_test.pdb
+D:\github_git\Note\C#\CODE\code_test\obj\Debug\netcoreapp3.1\code_test.csprojAssemblyReference.cache
+D:\github_git\Note\C#\CODE\code_test\obj\Debug\netcoreapp3.1\code_test.AssemblyInfoInputs.cache
+D:\github_git\Note\C#\CODE\code_test\obj\Debug\netcoreapp3.1\code_test.AssemblyInfo.cs
+D:\github_git\Note\C#\CODE\code_test\obj\Debug\netcoreapp3.1\code_test.csproj.CoreCompileInputs.cache
+D:\github_git\Note\C#\CODE\code_test\obj\Debug\netcoreapp3.1\code_test.dll
+D:\github_git\Note\C#\CODE\code_test\obj\Debug\netcoreapp3.1\code_test.pdb
+D:\github_git\Note\C#\CODE\code_test\obj\Debug\netcoreapp3.1\code_test.genruntimeconfig.cache

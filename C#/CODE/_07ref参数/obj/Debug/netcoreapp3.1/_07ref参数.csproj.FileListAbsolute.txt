@@ -1,0 +1,12 @@
+D:\github_git\Note\C#\CODE\_07ref参数\bin\Debug\netcoreapp3.1\_07ref参数.exe
+D:\github_git\Note\C#\CODE\_07ref参数\bin\Debug\netcoreapp3.1\_07ref参数.deps.json
+D:\github_git\Note\C#\CODE\_07ref参数\bin\Debug\netcoreapp3.1\_07ref参数.runtimeconfig.json
+D:\github_git\Note\C#\CODE\_07ref参数\bin\Debug\netcoreapp3.1\_07ref参数.runtimeconfig.dev.json
+D:\github_git\Note\C#\CODE\_07ref参数\bin\Debug\netcoreapp3.1\_07ref参数.dll
+D:\github_git\Note\C#\CODE\_07ref参数\bin\Debug\netcoreapp3.1\_07ref参数.pdb
+D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.AssemblyInfoInputs.cache
+D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.AssemblyInfo.cs
+D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.csproj.CoreCompileInputs.cache
+D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.dll
+D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.pdb
+D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.genruntimeconfig.cache

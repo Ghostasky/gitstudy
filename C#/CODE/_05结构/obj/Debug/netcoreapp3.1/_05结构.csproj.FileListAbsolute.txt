@@ -1,0 +1,13 @@
+D:\github_git\Note\C#\CODE\_05结构\bin\Debug\netcoreapp3.1\_05结构.exe
+D:\github_git\Note\C#\CODE\_05结构\bin\Debug\netcoreapp3.1\_05结构.deps.json
+D:\github_git\Note\C#\CODE\_05结构\bin\Debug\netcoreapp3.1\_05结构.runtimeconfig.json
+D:\github_git\Note\C#\CODE\_05结构\bin\Debug\netcoreapp3.1\_05结构.runtimeconfig.dev.json
+D:\github_git\Note\C#\CODE\_05结构\bin\Debug\netcoreapp3.1\_05结构.dll
+D:\github_git\Note\C#\CODE\_05结构\bin\Debug\netcoreapp3.1\_05结构.pdb
+D:\github_git\Note\C#\CODE\_05结构\obj\Debug\netcoreapp3.1\_05结构.csprojAssemblyReference.cache
+D:\github_git\Note\C#\CODE\_05结构\obj\Debug\netcoreapp3.1\_05结构.AssemblyInfoInputs.cache
+D:\github_git\Note\C#\CODE\_05结构\obj\Debug\netcoreapp3.1\_05结构.AssemblyInfo.cs
+D:\github_git\Note\C#\CODE\_05结构\obj\Debug\netcoreapp3.1\_05结构.csproj.CoreCompileInputs.cache
+D:\github_git\Note\C#\CODE\_05结构\obj\Debug\netcoreapp3.1\_05结构.dll
+D:\github_git\Note\C#\CODE\_05结构\obj\Debug\netcoreapp3.1\_05结构.pdb
+D:\github_git\Note\C#\CODE\_05结构\obj\Debug\netcoreapp3.1\_05结构.genruntimeconfig.cache
