@@ -198,6 +198,69 @@ c和C++的malloc的不同：
 
 --------------------------------------------------
 
+# 第一章
+
+-   endl：结束当前行，并将与设备关联的缓冲区中的内容刷到设备中。
+-   \>\>：输入
+-   
+
+# 第二章
+
+-   extern：声明而非定义
+
+-   引用与指针
+
+-   const定义后不能修改
+
+-   typedef：typedef double aaa;//aaa是double的同义
+
+-   auto：让编译器通过初始值推算变量的类型
+
+-   decltype：选择并返回操作数的类型
+
+    ```cpp
+    int a = 10;
+    char b = 'b';
+    decltype(a) c = 100;
+    decltype(b) d = 'd';
+    ```
+
+# 第三章
+
+-   string
+
+    ```cpp
+    初始化
+    string a = "123212313aa";
+    string s1 = a;
+    string s2(a);
+    string s3("qwer");
+    string s4(10, 'c');
+    ```
+
+-   getline：读取一行
+
+    `getline(cin, s5);`
+
+-   可以这样处理
+
+    ```cpp
+    for (auto b : s5)
+    {
+        cout << b << endl;
+    }
+    ```
+
+-   string类型可以使用下标
+
+
+# 第六章
+
+-   函数重载
+-   默认实参
+
+
+
 
 
 
