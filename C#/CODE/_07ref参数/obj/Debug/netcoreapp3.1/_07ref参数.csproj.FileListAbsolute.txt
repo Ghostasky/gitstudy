@@ -10,3 +10,5 @@ D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.csp
 D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.dll
 D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.pdb
 D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.genruntimeconfig.cache
+D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.csproj.AssemblyReference.cache
+D:\github_git\Note\C#\CODE\_07ref参数\obj\Debug\netcoreapp3.1\_07ref参数.GeneratedMSBuildEditorConfig.editorconfig

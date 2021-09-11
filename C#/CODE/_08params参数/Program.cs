@@ -9,16 +9,9 @@ namespace _08params参数
 
             int[] score = { 1, 2, 3 };
 
+            Test(1,2,3);
             Console.WriteLine("Hello World!");
         }
-
-
-
-
-
-
-
-
 
 
         public static void Test(params int[] nums)

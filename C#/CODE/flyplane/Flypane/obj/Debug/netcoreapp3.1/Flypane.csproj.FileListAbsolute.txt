@@ -1,0 +1,14 @@
+D:\github_git\Note\C#\CODE\flyplane\Flypane\bin\Debug\netcoreapp3.1\Flypane.exe
+D:\github_git\Note\C#\CODE\flyplane\Flypane\bin\Debug\netcoreapp3.1\Flypane.deps.json
+D:\github_git\Note\C#\CODE\flyplane\Flypane\bin\Debug\netcoreapp3.1\Flypane.runtimeconfig.json
+D:\github_git\Note\C#\CODE\flyplane\Flypane\bin\Debug\netcoreapp3.1\Flypane.runtimeconfig.dev.json
+D:\github_git\Note\C#\CODE\flyplane\Flypane\bin\Debug\netcoreapp3.1\Flypane.dll
+D:\github_git\Note\C#\CODE\flyplane\Flypane\bin\Debug\netcoreapp3.1\Flypane.pdb
+D:\github_git\Note\C#\CODE\flyplane\Flypane\obj\Debug\netcoreapp3.1\Flypane.csproj.AssemblyReference.cache
+D:\github_git\Note\C#\CODE\flyplane\Flypane\obj\Debug\netcoreapp3.1\Flypane.GeneratedMSBuildEditorConfig.editorconfig
+D:\github_git\Note\C#\CODE\flyplane\Flypane\obj\Debug\netcoreapp3.1\Flypane.AssemblyInfoInputs.cache
+D:\github_git\Note\C#\CODE\flyplane\Flypane\obj\Debug\netcoreapp3.1\Flypane.AssemblyInfo.cs
+D:\github_git\Note\C#\CODE\flyplane\Flypane\obj\Debug\netcoreapp3.1\Flypane.csproj.CoreCompileInputs.cache
+D:\github_git\Note\C#\CODE\flyplane\Flypane\obj\Debug\netcoreapp3.1\Flypane.dll
+D:\github_git\Note\C#\CODE\flyplane\Flypane\obj\Debug\netcoreapp3.1\Flypane.pdb
+D:\github_git\Note\C#\CODE\flyplane\Flypane\obj\Debug\netcoreapp3.1\Flypane.genruntimeconfig.cache
