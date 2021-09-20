@@ -1,14 +1,11 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main()
 {
-    int a = 10;
-    int &b = a;
-    int *c = &b;
+    /*  Write C code in this online editor and run it. */
+    int a = 0x12345678;
+    printf("%p\n", &a);
+    printf("%p\n", ((int)&a & 0xffffff));
 
-    b = 20;
-    *c = 30;
-    cout << a << " " << b << " " << *c;
     return 0;
 }
