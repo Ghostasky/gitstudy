@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_07ref参数", "..\_07ref�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_08params参数", "..\_08params参数\_08params参数.csproj", "{F6742473-E501-4074-8F5C-524B22E58F0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_09类", "..\_09类\_09类.csproj", "{B0987D43-2AC2-4EF1-9DC1-13ADF57DBB71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_09类", "..\_09类\_09类.csproj", "{B0987D43-2AC2-4EF1-9DC1-13ADF57DBB71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_10构造函数", "..\_10构造函数\_10构造函数.csproj", "{9BD6080D-D922-4437-8AED-98D7A7ED4396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_11getandset访问器", "..\_getandset访问器\_11getandset访问器.csproj", "{170F89E3-B328-434B-A11D-431A60BA2F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_12命名空间", "..\_12命名空间\_12命名空间.csproj", "{344077C3-9BA1-43F8-B6A6-30BD5414255E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{B0987D43-2AC2-4EF1-9DC1-13ADF57DBB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0987D43-2AC2-4EF1-9DC1-13ADF57DBB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0987D43-2AC2-4EF1-9DC1-13ADF57DBB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD6080D-D922-4437-8AED-98D7A7ED4396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD6080D-D922-4437-8AED-98D7A7ED4396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD6080D-D922-4437-8AED-98D7A7ED4396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD6080D-D922-4437-8AED-98D7A7ED4396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170F89E3-B328-434B-A11D-431A60BA2F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170F89E3-B328-434B-A11D-431A60BA2F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170F89E3-B328-434B-A11D-431A60BA2F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170F89E3-B328-434B-A11D-431A60BA2F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344077C3-9BA1-43F8-B6A6-30BD5414255E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344077C3-9BA1-43F8-B6A6-30BD5414255E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344077C3-9BA1-43F8-B6A6-30BD5414255E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344077C3-9BA1-43F8-B6A6-30BD5414255E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,13 @@
+D:\github_git\Note\C#\CODE\_getandset访问器\obj\Debug\netcoreapp3.1\_11getandset访问器.GeneratedMSBuildEditorConfig.editorconfig
+D:\github_git\Note\C#\CODE\_getandset访问器\obj\Debug\netcoreapp3.1\_11getandset访问器.AssemblyInfoInputs.cache
+D:\github_git\Note\C#\CODE\_getandset访问器\obj\Debug\netcoreapp3.1\_11getandset访问器.AssemblyInfo.cs
+D:\github_git\Note\C#\CODE\_getandset访问器\obj\Debug\netcoreapp3.1\_11getandset访问器.csproj.CoreCompileInputs.cache
+D:\github_git\Note\C#\CODE\_getandset访问器\bin\Debug\netcoreapp3.1\_11getandset访问器.exe
+D:\github_git\Note\C#\CODE\_getandset访问器\bin\Debug\netcoreapp3.1\_11getandset访问器.deps.json
+D:\github_git\Note\C#\CODE\_getandset访问器\bin\Debug\netcoreapp3.1\_11getandset访问器.runtimeconfig.json
+D:\github_git\Note\C#\CODE\_getandset访问器\bin\Debug\netcoreapp3.1\_11getandset访问器.runtimeconfig.dev.json
+D:\github_git\Note\C#\CODE\_getandset访问器\bin\Debug\netcoreapp3.1\_11getandset访问器.dll
+D:\github_git\Note\C#\CODE\_getandset访问器\bin\Debug\netcoreapp3.1\_11getandset访问器.pdb
+D:\github_git\Note\C#\CODE\_getandset访问器\obj\Debug\netcoreapp3.1\_11getandset访问器.dll
+D:\github_git\Note\C#\CODE\_getandset访问器\obj\Debug\netcoreapp3.1\_11getandset访问器.pdb
+D:\github_git\Note\C#\CODE\_getandset访问器\obj\Debug\netcoreapp3.1\_11getandset访问器.genruntimeconfig.cache

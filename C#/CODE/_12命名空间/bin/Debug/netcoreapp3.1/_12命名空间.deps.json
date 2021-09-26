@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "_12命名空间/1.0.0": {
+        "dependencies": {
+          "_10构造函数": "1.0.0"
+        },
+        "runtime": {
+          "_12命名空间.dll": {}
+        }
+      },
+      "_10构造函数/1.0.0": {
+        "runtime": {
+          "_10构造函数.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "_12命名空间/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "_10构造函数/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
