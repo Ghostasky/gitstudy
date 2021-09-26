@@ -1,0 +1,13 @@
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\bin\Debug\netcoreapp3.1\_15装箱和拆箱.exe
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\bin\Debug\netcoreapp3.1\_15装箱和拆箱.deps.json
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\bin\Debug\netcoreapp3.1\_15装箱和拆箱.runtimeconfig.json
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\bin\Debug\netcoreapp3.1\_15装箱和拆箱.runtimeconfig.dev.json
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\bin\Debug\netcoreapp3.1\_15装箱和拆箱.dll
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\bin\Debug\netcoreapp3.1\_15装箱和拆箱.pdb
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\obj\Debug\netcoreapp3.1\_15装箱和拆箱.GeneratedMSBuildEditorConfig.editorconfig
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\obj\Debug\netcoreapp3.1\_15装箱和拆箱.AssemblyInfoInputs.cache
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\obj\Debug\netcoreapp3.1\_15装箱和拆箱.AssemblyInfo.cs
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\obj\Debug\netcoreapp3.1\_15装箱和拆箱.csproj.CoreCompileInputs.cache
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\obj\Debug\netcoreapp3.1\_15装箱和拆箱.dll
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\obj\Debug\netcoreapp3.1\_15装箱和拆箱.pdb
+D:\github_git\Note\C#\CODE\_15装箱和拆箱\obj\Debug\netcoreapp3.1\_15装箱和拆箱.genruntimeconfig.cache

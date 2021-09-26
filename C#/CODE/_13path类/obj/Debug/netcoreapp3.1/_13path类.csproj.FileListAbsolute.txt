@@ -1,0 +1,14 @@
+D:\github_git\Note\C#\CODE\_13path类\bin\Debug\netcoreapp3.1\_13path类.exe
+D:\github_git\Note\C#\CODE\_13path类\bin\Debug\netcoreapp3.1\_13path类.deps.json
+D:\github_git\Note\C#\CODE\_13path类\bin\Debug\netcoreapp3.1\_13path类.runtimeconfig.json
+D:\github_git\Note\C#\CODE\_13path类\bin\Debug\netcoreapp3.1\_13path类.runtimeconfig.dev.json
+D:\github_git\Note\C#\CODE\_13path类\bin\Debug\netcoreapp3.1\_13path类.dll
+D:\github_git\Note\C#\CODE\_13path类\bin\Debug\netcoreapp3.1\_13path类.pdb
+D:\github_git\Note\C#\CODE\_13path类\obj\Debug\netcoreapp3.1\_13path类.csproj.AssemblyReference.cache
+D:\github_git\Note\C#\CODE\_13path类\obj\Debug\netcoreapp3.1\_13path类.GeneratedMSBuildEditorConfig.editorconfig
+D:\github_git\Note\C#\CODE\_13path类\obj\Debug\netcoreapp3.1\_13path类.AssemblyInfoInputs.cache
+D:\github_git\Note\C#\CODE\_13path类\obj\Debug\netcoreapp3.1\_13path类.AssemblyInfo.cs
+D:\github_git\Note\C#\CODE\_13path类\obj\Debug\netcoreapp3.1\_13path类.csproj.CoreCompileInputs.cache
+D:\github_git\Note\C#\CODE\_13path类\obj\Debug\netcoreapp3.1\_13path类.dll
+D:\github_git\Note\C#\CODE\_13path类\obj\Debug\netcoreapp3.1\_13path类.pdb
+D:\github_git\Note\C#\CODE\_13path类\obj\Debug\netcoreapp3.1\_13path类.genruntimeconfig.cache
